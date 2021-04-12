@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class collectZone : MonoBehaviour
 {
@@ -55,7 +56,8 @@ public class collectZone : MonoBehaviour
     private IEnumerator TimeForTextRight()
     {
         displayTextRight.SetActive(true);
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5);
         displayTextRight.SetActive(false);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
