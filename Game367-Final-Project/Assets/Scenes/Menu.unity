@@ -1535,6 +1535,30 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: Drop
+    clip: {fileID: 8300000, guid: 3c219a310477be549b83297691d9ff41, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Pickup
+    clip: {fileID: 8300000, guid: b57c4b88b852d864ebbd8fe578b0a8f9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Correct
+    clip: {fileID: 8300000, guid: 146d3784eeffab942bdf10804507f407, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Incorrect
+    clip: {fileID: 8300000, guid: 9c2d1269401cac046b3be803214facbe, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!82 &1105462325
 AudioSource:
   m_ObjectHideFlags: 0
