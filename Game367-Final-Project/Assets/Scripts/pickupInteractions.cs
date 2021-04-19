@@ -18,11 +18,13 @@ public class pickupInteractions : MonoBehaviour
                 RaycastHit hit;
                 if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickUpRange))
                 {
+                    FindObjectOfType<AudioManager>().Play("Pickup");
                     PickUpObject(hit.transform.gameObject);
                 }
             }
             else
             {
+                FindObjectOfType<AudioManager>().Play("Drop");
                 DropObject();
             }
 

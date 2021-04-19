@@ -21,11 +21,13 @@ public class collectZone : MonoBehaviour
         if(boombox.gameObject.tag == "Correct")
         {
 
+            
             DisplayCorrect();
             
         }
         else if (boombox.gameObject.tag == "Wrong")
         {
+            
             DisplayWrong();
             
         }
@@ -36,6 +38,7 @@ public class collectZone : MonoBehaviour
     void DisplayCorrect()
     {
 
+        FindObjectOfType<AudioManager>().Play("Correct");
         StartCoroutine(TimeForTextRight());
         
     }
@@ -43,6 +46,7 @@ public class collectZone : MonoBehaviour
 
     void DisplayWrong()
     {
+        FindObjectOfType<AudioManager>().Play("Incorrect");
         StartCoroutine(TimeForTextWrong());  
     }
 

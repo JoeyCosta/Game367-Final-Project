@@ -40,6 +40,11 @@ public class AudioManager : MonoBehaviour
             Debug.LogWarning("Sound: " + name + " not found");
             return;
         }
+
+        if(pauseMenu.gameIsPaused)
+        {
+            s.source.pitch *= .5f;
+        }
             
         s.source.Play();
         //To play sound go to script and type: FindObjectOfType<AudioManager>().Play("Sound name");
