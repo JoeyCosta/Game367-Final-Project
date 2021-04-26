@@ -95,6 +95,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (grounded)
             {
+                FindObjectOfType<AudioManager>().Play("Slide");
                 rb.AddForce(orientation.transform.forward * slideForce);
             }
         }
@@ -162,6 +163,7 @@ public class PlayerMovement : MonoBehaviour
             readyToJump = false;
 
             //Add jump forces
+            FindObjectOfType<AudioManager>().Play("Jump");
             rb.AddForce(Vector2.up * jumpForce * 1.5f);
             rb.AddForce(normalVector * jumpForce * 0.5f);
 
@@ -183,6 +185,7 @@ public class PlayerMovement : MonoBehaviour
             
             if (isWallLeft && !Input.GetKey(KeyCode.D) || isWallRight && !Input.GetKey(KeyCode.A))
             {
+                FindObjectOfType<AudioManager>().Play("Jump");
                 rb.AddForce(Vector2.up * jumpForce * 1.5f);
                 rb.AddForce(normalVector * jumpForce * 0.5f);
             }
