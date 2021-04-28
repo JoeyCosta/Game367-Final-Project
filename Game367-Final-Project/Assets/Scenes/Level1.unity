@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18359068, g: 0.22910297, b: 0.30542254, a: 1}
+  m_IndirectSpecularColor: {r: 0.18359098, g: 0.22910374, b: 0.30542383, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2311,11 +2311,11 @@ AudioSource:
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1.8381157
-  MaxDistance: 500
+  DopplerLevel: 0
+  MinDistance: 1
+  MaxDistance: 30
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -15362,6 +15362,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Correct
       objectReference: {fileID: 0}
+    - target: {fileID: 6394230428935207217, guid: a73afc876d6f7bd43847cbdee3c35e66, type: 3}
+      propertyPath: MaxDistance
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 6394230428935207217, guid: a73afc876d6f7bd43847cbdee3c35e66, type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6394230428935207217, guid: a73afc876d6f7bd43847cbdee3c35e66, type: 3}
+      propertyPath: DopplerLevel
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a73afc876d6f7bd43847cbdee3c35e66, type: 3}
 --- !u!1001 &5559939229944136664
@@ -15371,6 +15383,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3760148859499928129, guid: 148e610016b817147943f376f12e1474, type: 3}
+      propertyPath: MaxDistance
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3760148859499928129, guid: 148e610016b817147943f376f12e1474, type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3760148859499928129, guid: 148e610016b817147943f376f12e1474, type: 3}
+      propertyPath: DopplerLevel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6049280672436024787, guid: 148e610016b817147943f376f12e1474, type: 3}
       propertyPath: m_Name
       value: Boombox4
@@ -15484,6 +15508,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Wrong
       objectReference: {fileID: 0}
+    - target: {fileID: 8847124375276846306, guid: 39d3dd182e2215541a48c14ed18baf60, type: 3}
+      propertyPath: MaxDistance
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 8847124375276846306, guid: 39d3dd182e2215541a48c14ed18baf60, type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8847124375276846306, guid: 39d3dd182e2215541a48c14ed18baf60, type: 3}
+      propertyPath: DopplerLevel
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39d3dd182e2215541a48c14ed18baf60, type: 3}
 --- !u!1001 &6140506431401583303
@@ -15574,6 +15610,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1022622022372089139, guid: 426e705fc81706043938917325c50ea6, type: 3}
+      propertyPath: MaxDistance
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022622022372089139, guid: 426e705fc81706043938917325c50ea6, type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022622022372089139, guid: 426e705fc81706043938917325c50ea6, type: 3}
+      propertyPath: DopplerLevel
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7108688111859705883, guid: 426e705fc81706043938917325c50ea6, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -15688,8 +15736,20 @@ PrefabInstance:
       value: Wrong
       objectReference: {fileID: 0}
     - target: {fileID: 7667265428475402408, guid: b5827ed9a4b1e2b44a0373773044b20b, type: 3}
+      propertyPath: MaxDistance
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667265428475402408, guid: b5827ed9a4b1e2b44a0373773044b20b, type: 3}
       propertyPath: MinDistance
-      value: 2.6263123
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667265428475402408, guid: b5827ed9a4b1e2b44a0373773044b20b, type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667265428475402408, guid: b5827ed9a4b1e2b44a0373773044b20b, type: 3}
+      propertyPath: DopplerLevel
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5827ed9a4b1e2b44a0373773044b20b, type: 3}
