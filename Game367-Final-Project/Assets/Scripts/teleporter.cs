@@ -5,10 +5,10 @@ using UnityEngine;
 public class teleporter : MonoBehaviour
 {
     public Transform teleportTarget;
-    public GameObject thePlayer;
+    //public GameObject thePlayer;
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        thePlayer.transform.transform.position = teleportTarget.transform.position;
+        other.transform.position = teleportTarget.transform.position;
     }
 }
