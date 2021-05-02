@@ -8,6 +8,7 @@ using UnityEngine.Audio;
 public class MenuManager : MonoBehaviour
 {
     public GameObject settingsMenuPanel;
+    public GameObject howToPlayPanel;
     public AudioMixer audioMixer;
 
 
@@ -23,10 +24,20 @@ public class MenuManager : MonoBehaviour
         settingsMenuPanel.SetActive(true);
     }
 
+    public void HowToPlayMenu()
+    {
+        FindObjectOfType<AudioManager>().Play("MenuSelect");
+        howToPlayPanel.SetActive(true);
+    }
+
     public void BackButton()
     {
         FindObjectOfType<AudioManager>().Play("MenuBack");
+        
         settingsMenuPanel.SetActive(false);
+        howToPlayPanel.SetActive(false);
+        
+        
     }
 
     public void QuitGame()
