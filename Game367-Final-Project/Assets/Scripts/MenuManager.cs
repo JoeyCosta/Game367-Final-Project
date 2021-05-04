@@ -11,6 +11,12 @@ public class MenuManager : MonoBehaviour
     public GameObject howToPlayPanel;
     public AudioMixer audioMixer;
 
+    private void Start()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
+
 
     public void StartGame()
     {

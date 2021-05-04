@@ -34,11 +34,15 @@ public class collectZone : MonoBehaviour
         
     }
 
+    
+
 
     void DisplayCorrect()
     {
 
+        FindObjectOfType<AudioManager>().Play("Winning");
         FindObjectOfType<AudioManager>().Play("Correct");
+        
         StartCoroutine(TimeForTextRight());
         
     }
@@ -46,6 +50,7 @@ public class collectZone : MonoBehaviour
 
     void DisplayWrong()
     {
+        FindObjectOfType<AudioManager>().Play("Losing");
         FindObjectOfType<AudioManager>().Play("Incorrect");
         StartCoroutine(TimeForTextWrong());  
     }

@@ -152,6 +152,7 @@ public class PlayerMovement : MonoBehaviour
         if (grounded && crouching) multiplierV = 0f;
 
         //Apply forces to move player
+        
         rb.AddForce(orientation.transform.forward * y * moveSpeed * Time.deltaTime * multiplier * multiplierV);
         rb.AddForce(orientation.transform.right * x * moveSpeed * Time.deltaTime * multiplier);
     }
@@ -363,14 +364,16 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.AddForce(orientation.forward * wallRunForce * Time.deltaTime);
 
-            if(isWallRight)
+            if (isWallRight)
             {
                 rb.AddForce(orientation.right * wallRunForce / 5 * Time.deltaTime);
+                
             }
 
             else
             {
                 rb.AddForce(-orientation.right * wallRunForce / 5 * Time.deltaTime);
+                
             }
         }
     }
