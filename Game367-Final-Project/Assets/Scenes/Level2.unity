@@ -3566,24 +3566,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2951978249173893915, guid: 1a3c60d9fbf7a214cac76eacd4e754af, type: 3}
---- !u!1 &207879994 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6273153756524331612, guid: 84b14cc57df6ec3459a1d43c2ec542b6, type: 3}
-  m_PrefabInstance: {fileID: 6273153756329262438}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &207879995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207879994}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fa7c4add6a0a6a42a2908de60ed76c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trashTarget: {fileID: 64642785}
 --- !u!1 &217552466
 GameObject:
   m_ObjectHideFlags: 0
@@ -29946,6 +29928,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3388835221556998312, guid: 84b14cc57df6ec3459a1d43c2ec542b6, type: 3}
+      propertyPath: trashTarget
+      value: 
+      objectReference: {fileID: 64642785}
     - target: {fileID: 6273153757001216225, guid: 84b14cc57df6ec3459a1d43c2ec542b6, type: 3}
       propertyPath: m_Name
       value: Trashcan

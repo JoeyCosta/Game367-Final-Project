@@ -9,7 +9,7 @@ public class Trashcan : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Incorrect")
+        if (other.tag == "Wrong")
         {
             //FindObjectOfType<AudioManager>().Play("teleport");
             other.transform.position = trashTarget.transform.position;
