@@ -13283,9 +13283,15 @@ Transform:
   m_LocalPosition: {x: -0.66, y: 3.65, z: 211.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+=======
   m_Father: {fileID: 1324332053}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> 1104509b2125c34606b740ab82c0b0628cd66fe5
 --- !u!1 &917897841
 GameObject:
   m_ObjectHideFlags: 0
