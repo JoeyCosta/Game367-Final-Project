@@ -13,6 +13,7 @@ public class timeUntilLoad : MonoBehaviour
 
     IEnumerator waitingTime()
     {
+        FindObjectOfType<AudioManager>().Play("Winning");
         yield return new WaitForSeconds(5);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
