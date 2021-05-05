@@ -104,3 +104,21 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: walljump
+    clip: {fileID: 8300000, guid: 836b8a01a0f558842a797281a10368a7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Winning
+    clip: {fileID: 8300000, guid: c67e346dc256ed64cab8e1f5ca5b0197, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Losing
+    clip: {fileID: 8300000, guid: 263d4c3b208f71d46be48fa883603e65, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}

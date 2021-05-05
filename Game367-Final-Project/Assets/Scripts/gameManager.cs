@@ -61,6 +61,7 @@ public class gameManager : MonoBehaviour
     void EndGame()
     {
         GameOverText.SetActive(true);
+        FindObjectOfType<AudioManager>().Play("Losing");
         StartCoroutine(ReloadScene());
     }
 
