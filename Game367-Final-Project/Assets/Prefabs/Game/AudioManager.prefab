@@ -57,13 +57,13 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - name: Incorrect
-    clip: {fileID: 8300000, guid: 9c2d1269401cac046b3be803214facbe, type: 3}
+    clip: {fileID: 8300000, guid: 3e489edc8732ed648951bdcc556a138f, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Correct
-    clip: {fileID: 8300000, guid: 146d3784eeffab942bdf10804507f407, type: 3}
+    clip: {fileID: 8300000, guid: d23dbf09945d4c54187b61964a6b53dc, type: 3}
     volume: 1
     pitch: 1
     loop: 0
@@ -76,6 +76,30 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Jump
     clip: {fileID: 8300000, guid: 7d99b544e0dc1a145ab92ed86fc3c01f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: teleport
+    clip: {fileID: 8300000, guid: ab05a158381351e4daea7c6ec3d706d7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MenuBlip
+    clip: {fileID: 8300000, guid: b96a1f015eacaaa43b72844934036b9e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MenuBack
+    clip: {fileID: 8300000, guid: 633553f7f4e3549449913d403a3b984e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MenuSelect
+    clip: {fileID: 8300000, guid: 6fc3b4bb308dd5d4f81ceecaa6584f37, type: 3}
     volume: 1
     pitch: 1
     loop: 0
