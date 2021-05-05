@@ -9812,7 +9812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7667265428475402408, guid: b5827ed9a4b1e2b44a0373773044b20b, type: 3}
       propertyPath: MaxDistance
-      value: 15
+      value: 14.577566
       objectReference: {fileID: 0}
     - target: {fileID: 7667265428475402408, guid: b5827ed9a4b1e2b44a0373773044b20b, type: 3}
       propertyPath: m_audioClip
@@ -16118,7 +16118,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8847124375276846306, guid: 39d3dd182e2215541a48c14ed18baf60, type: 3}
       propertyPath: MaxDistance
-      value: 15
+      value: 13.362381
       objectReference: {fileID: 0}
     - target: {fileID: 8847124375276846306, guid: 39d3dd182e2215541a48c14ed18baf60, type: 3}
       propertyPath: m_audioClip
@@ -18745,6 +18745,14 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 7319169190452639533, guid: acbaecc8954a699499024562b170c3c4, type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319169190452639533, guid: acbaecc8954a699499024562b170c3c4, type: 3}
+      propertyPath: MaxDistance
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319169190452639533, guid: acbaecc8954a699499024562b170c3c4, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 71a4bd298af7d6944afda72d82ab5732, type: 3}
@@ -19740,6 +19748,14 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 7319169190452639533, guid: acbaecc8954a699499024562b170c3c4, type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319169190452639533, guid: acbaecc8954a699499024562b170c3c4, type: 3}
+      propertyPath: MaxDistance
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319169190452639533, guid: acbaecc8954a699499024562b170c3c4, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 8634dd15d4104af4bbfd1149d6553876, type: 3}
@@ -20698,7 +20714,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6394230428935207217, guid: a73afc876d6f7bd43847cbdee3c35e66, type: 3}
       propertyPath: MaxDistance
-      value: 15
+      value: 15.452621
       objectReference: {fileID: 0}
     - target: {fileID: 6394230428935207217, guid: a73afc876d6f7bd43847cbdee3c35e66, type: 3}
       propertyPath: m_audioClip
@@ -31078,6 +31094,14 @@ PrefabInstance:
     - target: {fileID: 5518105147614399513, guid: acbaecc8954a699499024562b170c3c4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319169190452639533, guid: acbaecc8954a699499024562b170c3c4, type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7319169190452639533, guid: acbaecc8954a699499024562b170c3c4, type: 3}
+      propertyPath: MaxDistance
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7319169190452639533, guid: acbaecc8954a699499024562b170c3c4, type: 3}
       propertyPath: m_audioClip
