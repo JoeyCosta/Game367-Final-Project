@@ -75,7 +75,6 @@ public class PlayerMovement : MonoBehaviour
     /// </summary>
     private void MyInput()
     {
-        
         x = Input.GetAxisRaw("Horizontal");
         y = Input.GetAxisRaw("Vertical");
         jumping = Input.GetButton("Jump");
@@ -194,12 +193,10 @@ public class PlayerMovement : MonoBehaviour
 
             
             if (isWallRight || isWallLeft && Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) rb.AddForce(-orientation.up * jumpForce * 1f);
-            
             if (isWallRight && Input.GetKey(KeyCode.A)) rb.AddForce(-orientation.right * jumpForce * 3.2f);
-            FindObjectOfType<AudioManager>().Play("walljump");
             if (isWallLeft && Input.GetKey(KeyCode.D)) rb.AddForce(orientation.right * jumpForce * 3.2f);
-            FindObjectOfType<AudioManager>().Play("walljump");
 
+            
             rb.AddForce(orientation.forward * jumpForce * 1f);
 
     
